@@ -1,10 +1,9 @@
 plugins {
     id("java")
-    application
+    id("application")
+}
 
-
-    }
-     application {
+application {
     mainClass.set("io.hexlet.code.App")
 }
 
